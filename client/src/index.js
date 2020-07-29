@@ -27,7 +27,7 @@ cache.writeData({
 let uri = "http://localhost:5000/graphql"
 
 if (process.env.NODE_ENV === 'production') {
-  uri = `https://bitter-graphql.herokuapp.com/graphql`;
+  uri = `https://bitter-graphql-v2.herokuapp.com/graphql`;
 }
 
 
